@@ -25,7 +25,7 @@ He Enters All Required Registration Fields
     Input    ${PERSONAL_INFO.postcode}    ${FAKE_DATA.postcode}
     Input    ${PERSONAL_INFO.phone_mobile}    +5511987654321
     Input    ${PERSONAL_INFO.addr_alias}    ${FAKE_DATA.alias}
-    Click In    ${REGISTER_BTN}
+    Click On    ${REGISTER_BTN}
     Wait Until Element Is Not Visible    ${REGISTER_BTN}
 An AutomationPractice account is created
     [Documentation]    asserts if an automationpractice account has been created

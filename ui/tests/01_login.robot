@@ -32,5 +32,5 @@ Scenario: Login With Invalid Credentials Should Fail
     Go To Login Page
     Input    ${LOGIN_EMAIL}    ${USER}
     Input    ${LOGIN_PASSWORD}    ${PASSWORD}    passwd=True
-    Click In    ${LOGINSUBMIT_BTN}
+    Click On    ${LOGINSUBMIT_BTN}
     Wait Until Element Is Visible    ${RED_FLAG}    1s
