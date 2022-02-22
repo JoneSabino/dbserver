@@ -27,7 +27,7 @@ As it is a project with few test cases, the structure could be much simpler, but
 
 ---
 
-## ****👨🏻‍💻 **API CHALLENGE**
+## 👨🏻‍💻 **API CHALLENGE**
 
 ### 🛠️ Tools & Libs
 
