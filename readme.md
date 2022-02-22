@@ -59,11 +59,7 @@ $ poetry run pytest
 $ poetry run robot -d ui/results ui/tests
 ```
 
-<aside>
-💡 If you don't use poetry as your package manager, there's a `requirements.txt` file in the project too. 
-Just create a `venv` , activate it, install the dependencies with `pip` and run the commands `pytest` for the API tests and `robot -d ui/results ui/tests` for the UI Tests
-
-</aside>
+💡 If you don't use poetry as your package manager, there's a `requirements.txt` file in the project too. Just create a `venv` , activate it, install the dependencies with `pip` and run the commands `pytest` for the API tests and `robot -d ui/results ui/tests` for the UI Tests
 
 ---
 
